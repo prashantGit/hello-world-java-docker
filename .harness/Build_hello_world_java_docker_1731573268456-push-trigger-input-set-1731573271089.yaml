@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hello_world_java_docker_1731573268456-push-trigger-input-set
+  identifier: Build_hello_world_java_docker_1731573268456pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test1
+  pipeline:
+    identifier: Build_hello_world_java_docker_1731573268456
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
